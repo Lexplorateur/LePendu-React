@@ -1,0 +1,96 @@
+
+.pendu {
+  margin: 0 auto;
+  font-family: "Lato Light", Arial, sans-serif;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+.pendu-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  background: #095059;
+}
+
+.pendu-title {
+  color: white;
+  font-family: Boycott, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 15px;
+}
+
+.word-to-guess {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.newLetter {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.end-game {
+  color: green;
+  font-size: 5rem;
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  height: 680px;
+  top : -7px;
+  text-shadow: white 3px 3px, white -3px 3px, white -3px -3px, white 3px -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win {
+  color: green;
+  background: url("feux.gif") content-box;
+}
+.loose {
+  color: red;
+  background-image: url("explode.gif");
+  background-position: center;
+}
+
+#already-used {
+  color: red;
+  text-align: center;
+  border-bottom: none;
+  background: none;
+}
+
+#button-replay {
+  z-index: 100;
+  font-size: 1.2rem;
+  position: absolute;
+  padding: 5px 20px;
+  color: white;
+  background-image:linear-gradient(darkcyan, #095059);
+  outline: none;
+  border: 2px solid white;
+  bottom: 25px;
+  border-radius: 10px;
+  font-family: "Lato Light", Arial, sans-serif;
+}
+#button-replay:hover {
+  background-image:linear-gradient(#095059, darkcyan);
+}
+
+
+.hidden-input {
+  visibility: hidden;
+}

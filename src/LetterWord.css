@@ -1,0 +1,6 @@
+.letter {
+    font-size: 3rem;
+    padding: 80px 10px;
+    width: 50px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,15 @@
+.input-letter-entered {
+    border: none;
+    border-bottom: 2px solid #095059;
+    text-align: center;
+    width: 70px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #095059;
+    padding-bottom: 5px;
+    font-family: "Lato Light", Arial, sans-serif;
+}
+
+.input-letter-entered:focus {
+    outline:  none;
+}
